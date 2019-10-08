@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="io.github.dsouzadyn.evently.LoginActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="263dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="128dp"
+            android:src="@drawable/back11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:alpha=".5"
+            android:background="@drawable/buttonstyle2"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:fontFamily="monospace"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/grey"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/loginPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:alpha=".5"
+            android:background="@drawable/buttonstyle2"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:fontFamily="monospace"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/grey"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/loginBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:alpha=".75"
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="37dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/buttonstyle2"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:fontFamily="monospace"
+            android:padding="16dp"
+            android:text="LOGIN "
+            android:textColor="@color/DarkBlue"
+            app:layout_constraintBottom_toTopOf="@+id/signUpLink"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/signUpLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/LightPink"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:fontFamily="monospace"
+            android:padding="16dp"
+            android:text="OR SIGN IN HERE"
+            android:alpha="0.9"
+            android:textColor="@color/DarkBlue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

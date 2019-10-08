@@ -1,0 +1,169 @@
+<resources>
+
+    <string name="temp_url">http://faces.fcrit.ac.in:1337</string>
+
+    <string name="app_name">Faces 2k18</string>
+
+    <string name="settings_file">EVENTLY_PREFS</string>
+    <string name="token_key">TOKEN</string>
+    <string name="uid_key">UID</string>
+    <string name="uname_key">UNAME</string>
+    <string name="conf_key">CONF</string>
+    <string name="urole_key">UROLE</string>
+
+    <string name="progress_loading">Loading...</string>
+    <string name="text_etamax_login">FACES 2K18</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="btn_day_one">DAY ONE</string>
+    <string name="btn_day_two">DAY TWO</string>
+    <string name="btn_day_three">DAY THREE</string>
+    <string name="btn_register">Register</string>
+
+    <string name="text_login">Sign In</string>
+    <string name="text_register">Register</string>
+    <string name="text_time">16:00-17:00</string>
+    <string name="text_event">Event Name</string>
+    <string name="text_event_description">Some Description</string>
+    <string name="text_price">50</string>
+    <string name="text_total">Total</string>
+    <string name="text_sponsors">Sponsors</string>
+    <string name="text_events">Events</string>
+    <string name="text_committee">Committee</string>
+    <string name="text_college">College Info</string>
+    <string name="text_etamax">About Etamax</string>
+    <string name="text_unconfirmed">UNC</string>
+
+    <string name="currency_rupee">₹</string>
+    <string name="scanner">Scanner</string>
+
+    <string name="toast_login_failed">Something went wrong!</string>
+
+    <string name="hint_email">EMAIL</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="hint_name">NAME</string>
+    <string name="hint_roll_no">ROLL NUMBER</string>
+    <string name="hint_phone_no">MOBILE NUMBER</string>
+
+    <string name="signup_helper">Not a member? Sign Up Here</string>
+
+    <string name="branch_prompt">SELECT BRANCH</string>
+    <string-array name="branch_array">
+        <item>COMPUTER</item>
+        <item>MECHANICAL</item>
+        <item>ELECTRICAL</item>
+        <item>IT</item>
+        <item>EXTC</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <string name="semester_prompt">SELECT SEMESTER</string>
+    <string-array name="semester_array">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string name="college_prompt">Select your college</string>
+    <string-array name="college_array">
+        <item>FCRIT</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="tag_title">
+        <item>Fun</item>
+        <item>Cultural</item>
+        <item>Sports</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="info_college">file:///android_asset/college_info.md</string>
+    <string name="info_etamax">file:///android_asset/etamax_info.md</string>
+    <string name="info_theme">file:///android_asset/theme_info.md</string>
+
+    <string name="contact_name_0">Yashraj Walmiki</string>
+    <string name="contact_name_1">Dipak Tiwari</string>
+    <string name="contact_name_2">Himanshu Pushkarna</string>
+    <string name="contact_name_3">Lidiya Dominic</string>
+    <string name="contact_name_4">Merin Jose</string>
+    <string name="contact_name_5">Tanvi Dhakate</string>
+    <string name="contact_name_6">Himanshu Chavan</string>
+    <string name="contact_name_7">Pragya Verma</string>
+    <string name="contact_name_8">Noel Sabu</string>
+    <string name="contact_name_9">Lokesh Nagar</string>
+    <string name="contact_name_10">Tanmay Kadam</string>
+    <string name="contact_name_11">Sneha Pellisery</string>
+    <string name="contact_name_12">Ahan Fernandez</string>
+    <string name="contact_name_13">Abel Simon</string>
+    <string name="contact_name_14">Alishnivetha Joseph</string>
+    <string name="contact_name_15">Shraddha Pawar</string>
+    <string name="contact_name_16">Ruhi Dhopavkar</string>
+    <string name="contact_name_17">Manasi Bhadamkar</string>
+    <string name="contact_name_18">Mayur Shinde</string>
+    <string name="contact_name_19">Aldrick Gonsalves</string>
+
+    <string name="contact_post_0">General Sec.</string>
+    <string name="contact_post_1">Cultural Sec.</string>
+    <string name="contact_post_2">Sports Sec.</string>
+    <string name="contact_post_3">Ladies Representative</string>
+    <string name="contact_post_4">Joint Sec.</string>
+    <string name="contact_post_5">Asst. Cultural Sec.</string>
+    <string name="contact_post_6">Asst. Sports Sec.</string>
+    <string name="contact_post_7">Asst. Ladies Representative</string>
+    <string name="contact_post_8">Technical Sec.</string>
+    <string name="contact_post_9">Asst. Technical Sec.</string>
+    <string name="contact_post_10">Treasurer</string>
+    <string name="contact_post_11">Asst. Treasurer</string>
+    <string name="contact_post_12">Sponsorship Head</string>
+    <string name="contact_post_13">Sponsorship Head</string>
+    <string name="contact_post_14">Creative Head</string>
+    <string name="contact_post_15">Creative Head</string>
+    <string name="contact_post_16">Documentation Head</string>
+    <string name="contact_post_17">Documentation Head</string>
+    <string name="contact_post_18">Public Representative</string>
+    <string name="contact_post_19">Security Head</string>
+
+    <string name="contact_branch_0">IT</string>
+    <string name="contact_branch_1">COMPS</string>
+    <string name="contact_branch_2">COMPS</string>
+    <string name="contact_branch_3">EXTC</string>
+    <string name="contact_branch_4">EXTC</string>
+    <string name="contact_branch_5">IT</string>
+    <string name="contact_branch_6">ELEC</string>
+    <string name="contact_branch_7">COMPS</string>
+    <string name="contact_branch_8">MECH</string>
+    <string name="contact_branch_9">ELEC</string>
+    <string name="contact_branch_10">ELEC</string>
+    <string name="contact_branch_11">IT</string>
+    <string name="contact_branch_12">COMPS</string>
+    <string name="contact_branch_13">IT</string>
+    <string name="contact_branch_14">EXTC</string>
+    <string name="contact_branch_15">ELEC</string>
+    <string name="contact_branch_16">EXTC</string>
+    <string name="contact_branch_17">MECH</string>
+    <string name="contact_branch_18">MECH</string>
+    <string name="contact_branch_19">MECH</string>
+
+    <string name="contact_phone_0">+91 7977981065</string>
+    <string name="contact_phone_1">+91 8237642415</string>
+    <string name="contact_phone_2">+91 9766036167</string>
+    <string name="contact_phone_3">+91 7038969136</string>
+    <string name="contact_phone_4">+91 9757386987</string>
+    <string name="contact_phone_5">+91 9987964326</string>
+    <string name="contact_phone_6">+91 7507511533</string>
+    <string name="contact_phone_7">+91 8451892599</string>
+    <string name="contact_phone_8">+91 9892851186</string>
+    <string name="contact_phone_9">+91 9969467301</string>
+    <string name="contact_phone_10">+91 8652618272</string>
+    <string name="contact_phone_11">+91 9763175602</string>
+    <string name="contact_phone_12">+91 9820618420</string>
+    <string name="contact_phone_13">+91 9987031750</string>
+    <string name="contact_phone_14">+91 9930210715</string>
+    <string name="contact_phone_15">+91 7977556968</string>
+    <string name="contact_phone_16">+91 9405959159</string>
+    <string name="contact_phone_17">+91 8692806239</string>
+    <string name="contact_phone_18">+91 9702846086</string>
+    <string name="contact_phone_19">+91 9096330098</string>
+</resources>
