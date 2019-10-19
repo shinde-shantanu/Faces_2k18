@@ -10,3 +10,10 @@ A student can register for multiple events and a barcode under the "Profile" tab
 ### Admin Portal
 The admin portal has a scanner that is used to scan the barcodes and generate a reciept for the amount to be paid.
 The app was hosted on the college servers.
+
+A few screenshots of the app-
+
+![alt text](https://github.com/shinde-shantanu/Faces_2k18/blob/master/Home_page.PNG)
+![alt text](https://github.com/shinde-shantanu/Faces_2k18/blob/master/Sign_up.PNG)
+![alt text](https://github.com/shinde-shantanu/Faces_2k18/blob/master/Login_page.PNG)
+![alt text](https://github.com/shinde-shantanu/Faces_2k18/blob/master/Event_list.PNG)
